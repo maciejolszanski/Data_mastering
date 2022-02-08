@@ -9,7 +9,7 @@ y_1 = [2*x**2 - 1/2*x for x in x_1]
 # Method 1
 data_dict = {'x': x_1, 'y': y_1,}
 fig_1 = px.line(data_dict, title='My test figure', x=x_1, y=y_1)
-fig_1.write_html('plot_1.html', auto_open=True)
+fig_1.write_html('charts/plot_1.html', auto_open=True)
 
 # Method 2
 fig_2 = go.Figure(
@@ -17,4 +17,4 @@ fig_2 = go.Figure(
     layout=go.Layout(title="My test figure",xaxis_title='x', yaxis_title='y')
     )
 
-fig_2.write_html('plot_2.html', auto_open=True)
+fig_2.write_html('charts/plot_2.html', auto_open=True)

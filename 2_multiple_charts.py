@@ -14,4 +14,4 @@ fig.add_trace(go.Scatter(x=x_2, y=y_2, name='Function 2'))
 fig.update_layout(title="Double chart", xaxis_title='x', yaxis_title='y',
     template='plotly_white')
 
-fig.write_html('multiple.html', auto_open=True)
+fig.write_html('charts/multiple.html', auto_open=True)

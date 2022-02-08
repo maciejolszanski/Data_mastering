@@ -47,4 +47,4 @@ fig.update_layout(
     template='plotly_white'
     )
 
-fig.write_html('min_and_max.html', auto_open=True)
+fig.write_html('charts/min_and_max.html', auto_open=True)
