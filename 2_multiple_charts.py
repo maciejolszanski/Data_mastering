@@ -1,6 +1,5 @@
 import plotly.graph_objects as go
 import numpy as np
-import plotly.io as pio
 
 x_1 = np.arange(0,100,0.1)
 x_2 = np.arange(0,100,0.1)
